@@ -36,7 +36,7 @@
         <script type="text/javascript">
             // This client ID expects the redirect URL to be http://localhost:8080/
             const clientId = 'f5bf0293-170d-4d24-821c-78f40c49c05a';
-            const redirectUri = "https://github.com/gagedecker/test";
+            const redirectUri = "https://gagedecker.github.io/test";
     
             // Set purecloud objects
             const platformClient = require('platformClient');
@@ -129,8 +129,8 @@
             } else {
                 var queryStringData = {
                     response_type : "token",
-                    client_id : "1a25e4ba-8a40-4ef8-a8c6-110103ab19f3",
-                    redirect_uri : "https://grantg.github.io/"
+                    client_id : "f5bf0293-170d-4d24-821c-78f40c49c05a",
+                    redirect_uri : "https://gagedecker.github.io/test"
                 }
 
                 window.location.replace("https://login.mypurecloud.com/oauth/authorize?" + jQuery.param(queryStringData));
